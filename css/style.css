@@ -198,10 +198,6 @@ nav > div > a:hover {
   border-radius: 5px;
 }
 
-.skillset-card:hover {
-  background-color: var(--hoverbuttoncolor);
-}
-
 .skillset-card > i {
   font-size: 2.5rem;
 }
