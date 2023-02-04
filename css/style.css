@@ -31,6 +31,7 @@ html {
 section {
   max-width: var(--maincontentwidth);
   margin: auto;
+  overflow-x: hidden;
 }
 
 img {
@@ -55,8 +56,7 @@ header {
   background: rgba(10, 25, 47, 0.6);
   backdrop-filter: blur(16.5px);
   -webkit-backdrop-filter: blur(16.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
   z-index: 100;
 }
 
@@ -109,7 +109,7 @@ nav > div > a:hover {
 
 .hero > div > div > h1 {
   font-size: 6rem;
-  color: white !important;
+  color: white;
   line-height: 100%;
 }
 
@@ -118,11 +118,10 @@ nav > div > a:hover {
 }
 
 .content {
-  display: flex;
   font-size: 1.3rem;
 }
 
-.content > .code-highlight {
+.content > p > span {
   color: var(--green);
 }
 
@@ -168,10 +167,16 @@ nav > div > a:hover {
 
 .about-col1 > p {
   font-size: 1.2rem;
+  text-align: justify;
 }
 
 .about-col1 > p > span {
   color: var(--green);
+}
+
+.about-col2 {
+  display: flex;
+  align-items: center;
 }
 
 .skills {
@@ -252,7 +257,8 @@ nav > div > a:hover {
 }
 
 .featured-projects {
-  border-bottom: 0.7px solid var(--grey);
+  margin-top: 1.5em;
+  border-top: 0.7px solid var(--grey);
   padding: 2em 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
@@ -260,8 +266,9 @@ nav > div > a:hover {
   align-items: center;
 }
 
-.projects-last {
-  border: none;
+.projects-first {
+  padding-top: 0;
+  border-top: none;
 }
 
 .online-status {
@@ -349,40 +356,21 @@ nav > div > a:hover {
   justify-content: start;
 }
 
-footer {
-  padding: 1.5em 0;
-  background-color: var(--cardbg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer > p > a {
-  color: var(--green);
-}
-
-footer > p > a:hover {
-  text-decoration: underline;
-}
-
 .contact {
   padding: 10em 0;
-}
-
-.contact-content {
-  width: max-content;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .contact-content > h2 {
   font-size: 3rem;
   margin-bottom: 0.5em;
+  text-align: center;
+  color: var(--green);
 }
 
 .contact-content > p {
   font-size: 1.2rem;
   margin-bottom: 1.6em;
+  text-align: center;
 }
 
 .email-btn {
@@ -400,4 +388,116 @@ footer > p > a:hover {
   border-radius: 9999px;
   padding: 0.6em;
   font-size: 1.5rem;
+}
+
+footer {
+  padding: 1.5em 1.5em;
+  background-color: var(--cardbg);
+}
+
+footer > p {
+  text-align: center;
+}
+
+footer > p > a {
+  color: var(--green);
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 931px) {
+  header > div {
+    padding: 0 1.5em;
+  }
+
+  section {
+    margin-left: 1.3em !important;
+    margin-right: 1.3em !important;
+  }
+
+  .about-col1 > p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 780px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (max-width: 731px) {
+  .about > div > h2 {
+    font-size: 2rem;
+  }
+
+  .works > div > h2 {
+    font-size: 2rem;
+  }
+
+  .skillset {
+    display: block;
+  }
+
+  .skillset-card {
+    margin-bottom: 2em;
+  }
+
+  .languages-tools {
+    display: block;
+  }
+
+  .languages-card {
+    margin-bottom: 2em;
+  }
+
+  .languages-card > h2 {
+    text-align: center;
+  }
+
+  .featured-projects {
+    display: block;
+  }
+
+  .projects-col1 {
+    margin-bottom: 2em;
+  }
+
+  .projects-col2 {
+    text-align: start;
+  }
+
+  .stack-used > ul {
+    justify-content: start;
+  }
+
+  .project-links {
+    justify-content: start;
+  }
+}
+
+@media (max-width: 641px) {
+  .about-col2 {
+    grid-column: span 2;
+    padding: 0 5em;
+  }
+}
+
+@media (max-width: 631px) {
+  .hero > div > div > h1 {
+    font-size: 4rem;
+  }
+
+  .about-col1 {
+    padding: 0;
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-col2 {
+    padding: 0;
+  }
 }
