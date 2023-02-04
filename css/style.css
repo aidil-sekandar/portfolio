@@ -6,6 +6,7 @@
   --green: #64ffda;
   --hoverbuttoncolor: #252b35;
   --bodycolor: #0a192f;
+  --grey: #8892b071;
 }
 
 ::selection {
@@ -22,7 +23,6 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 0.9rem;
   background-color: var(--bodycolor);
   color: var(--maintextcolor);
 }
@@ -164,7 +164,7 @@ nav > div > a:hover {
 }
 
 .about-col1 > p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .about-col1 > p > span {
@@ -204,7 +204,7 @@ nav > div > a:hover {
 }
 
 .skillset-card > p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .skills > .languages {
@@ -249,11 +249,16 @@ nav > div > a:hover {
 }
 
 .featured-projects {
-  margin-top: 1em;
+  border-bottom: 0.7px solid var(--grey);
+  padding: 2em 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 2em;
   align-items: center;
+}
+
+.projects-last {
+  border: none;
 }
 
 .projects-col1 > a > img {
@@ -286,10 +291,13 @@ nav > div > a:hover {
 
 .projects-col2 > h3 {
   color: var(--green);
+  font-size: 1.2rem;
 }
 
 .projects-col2 > h2 {
-  font-size: 2rem;
+  margin-top: 0.3em;
+  font-size: 2.3rem;
+  line-height: 110%;
   color: rgb(219, 219, 219);
 }
 
@@ -324,4 +332,20 @@ nav > div > a:hover {
 
 .project-links > a:hover {
   color: rgb(192, 192, 192);
+}
+
+.left {
+  order: 2;
+}
+
+.col2-left {
+  text-align: start;
+}
+
+.links-left {
+  justify-content: start;
+}
+
+.stack-left > ul {
+  justify-content: start;
 }
