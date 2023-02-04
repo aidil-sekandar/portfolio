@@ -7,7 +7,7 @@
   --hoverbuttoncolor: #252b35;
   --bodycolor: #0a192f;
   --grey: #8892b071;
-  --cardbg: #282e3d;
+  --cardbg: #112240;
 }
 
 ::selection {
@@ -499,5 +499,11 @@ footer > p > a:hover {
 @media (max-width: 480px) {
   .about-col2 {
     padding: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 0.7rem;
   }
 }
