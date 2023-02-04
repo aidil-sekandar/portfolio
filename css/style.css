@@ -349,3 +349,19 @@ nav > div > a:hover {
 .stack-left > ul {
   justify-content: start;
 }
+
+footer {
+  padding: 1.5em 0;
+  background-color: #29303c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > p > a {
+  color: var(--green);
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
