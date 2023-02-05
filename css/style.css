@@ -465,7 +465,6 @@ footer > p > a:hover {
   .hamburger-inactive {
     display: block;
     font-size: 1.3rem;
-    margin-right: 1.5em;
   }
 
   .hamburger-inactive:hover {
