@@ -283,6 +283,10 @@ nav > div > a:hover {
   color: white;
 }
 
+.development > p > i {
+  color: yellow !important;
+}
+
 .online-status > p > i {
   color: rgb(16, 185, 129);
 }
