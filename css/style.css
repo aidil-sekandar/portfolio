@@ -78,6 +78,14 @@ header > div {
   text-decoration: underline;
 }
 
+.hamburger {
+  display: none;
+}
+
+.hamburger-inactive {
+  display: none;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -86,12 +94,17 @@ nav {
   gap: 1.9em;
 }
 
-nav > div > a:hover {
+nav > a {
+  display: block;
+}
+
+nav > a:hover {
   color: var(--green);
   text-decoration: underline;
 }
 
-.resume-btn-div > a {
+.resume-btn {
+  display: block;
   border-radius: 5px;
   padding: 0.5em 1.5em;
   width: max-content;
@@ -99,8 +112,9 @@ nav > div > a:hover {
   color: var(--green);
 }
 
-.resume-btn-div > a:hover {
+.resume-btn:hover {
   background-color: var(--hoverbuttoncolor);
+  text-decoration: underline;
 }
 
 .hero {
@@ -427,6 +441,35 @@ footer > p > a:hover {
 @media (max-width: 780px) {
   nav {
     display: none;
+  }
+
+  nav.active {
+    display: grid;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: var(--cardbg);
+    border-radius: 5px;
+    padding: 2em;
+  }
+
+  .hamburger {
+    justify-content: end;
+    font-size: 1.3rem;
+  }
+
+  .hamburger:hover {
+    color: white;
+  }
+
+  .hamburger-inactive {
+    display: block;
+    font-size: 1.3rem;
+    margin-right: 1.5em;
+  }
+
+  .hamburger-inactive:hover {
+    color: white;
   }
 }
 

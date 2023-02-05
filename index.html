@@ -21,6 +21,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
+    <script src="./js/index.js" defer></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Aidil Iskandar</title>
   </head>
@@ -30,20 +31,18 @@
         <div class="logo">
           <a href="/">Aidil.</a>
         </div>
-        <nav>
-          <div>
-            <a href="#about">About</a>
+        <nav id="nav">
+          <div class="hamburger">
+            <i id="hamburger" class="fa-solid fa-xmark"></i>
           </div>
-          <div>
-            <a href="#works">Works</a>
-          </div>
-          <div>
-            <a href="#contact">Contacts</a>
-          </div>
-          <div class="resume-btn-div">
-            <a href="#">Resume</a>
-          </div>
+          <a href="#about">About</a>
+          <a href="#works">Works</a>
+          <a href="#contact">Contacts</a>
+          <a href="#" class="resume-btn">Resume</a>
         </nav>
+        <div class="hamburger-inactive">
+          <i id="hamburger-inactive" class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </header>
 
@@ -70,7 +69,7 @@
         </div>
         <div class="button-div">
           <a href="#works" class="button"
-            ><span>Check out my works</span>&nbsp;<i class="ri-arrow-down-line"></i
+            ><span>Check out my works</span>&nbsp;<i class="fa-solid fa-arrow-down"></i
           ></a>
         </div>
       </div>
