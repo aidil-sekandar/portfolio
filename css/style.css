@@ -253,7 +253,6 @@ nav > div > a:hover {
 }
 
 .featured-projects {
-  margin-top: 1.5em;
   border-top: 0.7px solid var(--grey);
   padding: 2em 0;
   display: grid;
@@ -263,8 +262,11 @@ nav > div > a:hover {
 }
 
 .projects-first {
-  padding-top: 0;
-  border-top: none;
+  margin-top: 1.5em;
+}
+
+.projects-last {
+  border-bottom: 0.7px solid var(--grey);
 }
 
 .online-status {
