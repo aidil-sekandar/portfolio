@@ -213,12 +213,12 @@ nav > a:hover {
 }
 
 .skillset-card > i {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .skillset-card > h2 {
   font-size: 2.2rem;
-  margin-bottom: 0.6em;
+  margin-top: 0.2em;
 }
 
 .skillset-card > p {
