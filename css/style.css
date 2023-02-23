@@ -428,9 +428,13 @@ footer > p > a:hover {
     padding: 0 1.5em;
   }
 
+  .skills {
+    margin: 4em auto 0 auto;
+  }
+
   section {
-    margin-left: 1.3em !important;
-    margin-right: 1.3em !important;
+    margin-left: 1.3em;
+    margin-right: 1.3em;
   }
 
   .about-col1 > p {
@@ -479,6 +483,11 @@ footer > p > a:hover {
 
   .works > div > h2 {
     font-size: 2rem;
+  }
+
+  .skills {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
   }
 
   .skillset {
