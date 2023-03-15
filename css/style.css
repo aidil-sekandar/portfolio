@@ -52,7 +52,7 @@ li {
 header {
   padding: 1.5em 0;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   background: rgba(10, 25, 47, 0.6);
   backdrop-filter: blur(16.5px);
   -webkit-backdrop-filter: blur(16.5px);
