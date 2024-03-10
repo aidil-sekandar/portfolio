@@ -207,7 +207,7 @@ nav > a:hover {
 }
 
 .skillset-card {
-  padding: 5em 2em;
+  padding: 3em 2em;
   background-color: var(--cardbg);
   border-radius: 5px;
 }
@@ -217,12 +217,7 @@ nav > a:hover {
 }
 
 .skillset-card > h2 {
-  font-size: 2.2rem;
-  margin-top: 0.2em;
-}
-
-.skillset-card > p {
-  font-size: 1.2rem;
+  margin-top: 0.5em;
 }
 
 .skills > .languages {
