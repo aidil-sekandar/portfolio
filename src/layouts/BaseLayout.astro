@@ -1,0 +1,60 @@
+---
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import "@/styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Aidil Iskandar" />
+    <meta
+      name="description"
+      content="Aidil Iskandar is an aspiring Full-stack Web Developer from Malaysia"
+    />
+    <meta name="keywords" content="Aidil Iskandar" />
+    <!-- og: -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Aidil Iskandar" />
+    <meta
+      property="og:description"
+      content="Aidil Iskandar is an aspiring Full-stack Web Developer from Malaysia"
+    />
+    <!-- icon -->
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/aidil-sekandar/portfolio/main/favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://raw.githubusercontent.com/aidil-sekandar/portfolio/main/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://raw.githubusercontent.com/aidil-sekandar/portfolio/main/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://raw.githubusercontent.com/aidil-sekandar/portfolio/main/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>Aidil Iskandar</title>
+  </head>
+  <body class="font-SourceCodePro bg-bodyColor text-textContent">
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>
