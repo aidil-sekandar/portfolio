@@ -47,7 +47,7 @@ const { img, status, name, description, techList, github = "", link = "" } = Ast
       {
         link && (
           <li>
-            <a class="hover:text-themePrimary" href={link} target="_blank">
+            <a aria-label="link" class="hover:text-themePrimary" href={link} target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                 <rect width="24" height="24" fill="none" />
                 <path
@@ -66,7 +66,12 @@ const { img, status, name, description, techList, github = "", link = "" } = Ast
       {
         github && (
           <li>
-            <a class="hover:text-themePrimary" href={github} target="_blank">
+            <a
+              class="hover:text-themePrimary"
+              href={github}
+              target="_blank"
+              aria-label="github-links"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                 <rect width="24" height="24" fill="none" />
                 <path
