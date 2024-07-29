@@ -32,6 +32,10 @@ header {
   z-index: 100;
 }
 
+img {
+  @apply rounded-xl border-2 border-themePrimary;
+}
+
 .hamburger {
   background: rgba(10, 25, 47);
   border: 1px solid rgba(255, 255, 255, 0.18);

@@ -1,0 +1,32 @@
+/* Tutorial Content Styling */
+.content > h2 {
+  @apply text-3xl text-white font-bold mt-5;
+}
+
+.content > p {
+  @apply leading-7 font-medium;
+}
+
+.content > ul {
+  @apply list-disc ml-10 font-medium;
+}
+
+.content > blockquote {
+  @apply bg-[#05152c] border-2 border-[#242b42] p-4 border-l-4 border-l-emerald-400 text-gray-300 italic;
+}
+
+em {
+  @apply mr-1;
+}
+
+.content > p > img {
+  margin: 1em auto;
+}
+
+.content > .img-desc {
+  @apply mt-[-2rem] text-center text-sm font-medium;
+}
+
+.img-alt {
+  @apply text-center mt-[-15px] text-base;
+}

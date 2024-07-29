@@ -1,0 +1,44 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import "@/styles/content.css";
+import { getCollection } from "astro:content";
+import { formatDate } from "@/utils/formatDate";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("blog");
+  return allPosts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+
+<BaseLayout>
+  <section class="max-w-[50rem] mx-auto px-4 pt-32 mb-16">
+    <div class="grid justify-center gap-4 mb-10">
+      <div class="flex justify-center">
+        <div class="bg-[#05152c] border-2 border-[#242b42] text-sm rounded py-2 px-6">
+          <time>{formatDate(post.data.pubDate)}</time>
+        </div>
+      </div>
+      <h1 class="text-4xl font-bold text-white text-center">{post.data.title}</h1>
+      <div class="flex justify-center gap-4">
+        {
+          post.data.tags.map((tag) => {
+            return (
+              <span class="block w-max py-1 px-4 rounded bg-emerald-400/10 text-emerald-400">
+                {tag}
+              </span>
+            );
+          })
+        }
+      </div>
+    </div>
+    <main class="content grid gap-6 text-lg px-4">
+      <Content />
+    </main>
+  </section>
+</BaseLayout>

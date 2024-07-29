@@ -1,0 +1,31 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import PostCard from "@/components/PostCard.astro";
+import { getCollection } from "astro:content";
+
+const allBlog = await getCollection("blog");
+---
+
+<BaseLayout>
+  <section class="main-layout pt-32 grid gap-4">
+    <h1 class="text-3xl font-bold text-white">Blog</h1>
+    <p class="text-lg">
+      Welcome to my blog! Here, I focus on writing academic-related topics such as programming,
+      physics, math, and more. I will also post updates about my projects' progress here. If you are
+      more interested in reading my personal blog, check out my
+      <a
+        class="text-themePrimary hover:underline"
+        target="_blank"
+        href="https://thisisaidil.medium.com">Medium</a
+      >.
+    </p>
+  </section>
+
+  <section class="main-layout my-16 grid gap-6">
+    {
+      allBlog.map((blog) => {
+        return <PostCard blog={blog} />;
+      })
+    }
+  </section>
+</BaseLayout>
