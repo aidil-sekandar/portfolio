@@ -1,24 +1,24 @@
 ---
 import { formatDate } from "@/utils/formatDate.js";
-const { blog } = Astro.props;
+const { article } = Astro.props;
 ---
 
 <a
-  href={`/blog/${blog.slug}`}
+  href={`/blog/${article.slug}`}
   class="grid md:grid-cols-2 gap-8 items-center bg-[#05152c] border-2 border-[#242b42] p-6 rounded transition hover:scale-[1.02] duration-100"
 >
   <div>
-    <img class="rounded" loading="lazy" src={blog.data.featuredImage} alt="The TEX Project" />
+    <img class="rounded" loading="lazy" src={article.data.featuredImage} alt="The TEX Project" />
   </div>
   <div>
-    <time>{formatDate(blog.data.pubDate)}</time>
-    <h1 class="font-bold text-white text-3xl my-3">{blog.data.title}</h1>
+    <time>{formatDate(article.data.pubDate)}</time>
+    <h1 class="font-bold text-white text-3xl my-3">{article.data.title}</h1>
     <p class="mb-5">
-      {blog.data.description}
+      {article.data.description}
     </p>
     <div class="flex gap-2 flex-wrap">
       {
-        blog.data.tags.map((tag) => {
+        article.data.tags.map((tag) => {
           return (
             <span class="block w-max py-1 px-4 rounded bg-emerald-400/10 text-emerald-400">
               {tag}

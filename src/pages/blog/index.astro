@@ -2,8 +2,10 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import PostCard from "@/components/PostCard.astro";
 import { getCollection } from "astro:content";
+import { filterArticles } from "@/utils/filterArticles";
 
-const allBlog = await getCollection("blog");
+const allArticlesFresh = await getCollection("blog");
+const allArticles = await filterArticles(allArticlesFresh, "recent", null);
 ---
 
 <BaseLayout>
@@ -23,8 +25,8 @@ const allBlog = await getCollection("blog");
 
   <section class="main-layout my-16 grid gap-6">
     {
-      allBlog.map((blog) => {
-        return <PostCard blog={blog} />;
+      allArticles.map((article) => {
+        return <PostCard article={article} />;
       })
     }
   </section>
