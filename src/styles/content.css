@@ -3,16 +3,24 @@
   @apply text-3xl text-themePrimary font-bold mt-5;
 }
 
+.content > p {
+  @apply leading-8 text-lg;
+}
+
 .content > h3 {
   @apply text-2xl font-semibold text-themePrimary;
 }
 
 .content > ul {
-  @apply list-disc ml-10 font-medium;
+  @apply list-disc ml-10 font-medium text-lg leading-8;
 }
 
 .content > ol {
-  @apply ml-11 list-decimal font-medium;
+  @apply ml-11 list-decimal font-medium text-lg leading-8;
+}
+
+.content li {
+  @apply mb-5;
 }
 
 .content > blockquote {
@@ -24,11 +32,26 @@
 }
 
 .content a {
-  @apply underline;
+  @apply underline relative inline-flex items-center;
 }
 
 .content a:hover {
   @apply text-themePrimary;
+}
+
+.content a::after {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 0.25rem; /* Tailwind = ml-1 */
+  background: currentColor;
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='currentColor' fill-rule='evenodd' d='M362.666 149.333V320H320l-.001-97.831l-154.51 154.51l-30.169-30.17L289.829 192h-97.83v-42.666z'/></svg>")
+    no-repeat center;
+  mask-size: contain;
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='currentColor' fill-rule='evenodd' d='M362.666 149.333V320H320l-.001-97.831l-154.51 154.51l-30.169-30.17L289.829 192h-97.83v-42.666z'/></svg>")
+    no-repeat center;
+  -webkit-mask-size: contain;
 }
 
 em {
@@ -36,12 +59,13 @@ em {
 }
 
 .content > p > img {
-  margin: 1em auto;
+  width: 70%;
+  margin: 1em auto 1em auto;
   border-radius: 5px;
 }
 
 .content > .img-desc {
-  @apply mt-[-2rem] text-center text-sm font-medium;
+  @apply mt-[-2rem] text-center text-sm font-medium mb-5;
 }
 
 .img-alt {
