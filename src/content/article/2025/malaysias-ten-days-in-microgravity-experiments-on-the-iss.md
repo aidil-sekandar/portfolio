@@ -2,7 +2,7 @@
 title: "Malaysia's Ten Days in Microgravity: Experiments on the ISS [Siri Angkasawan Malaysia #4]"
 pubDate: 2025-07-03
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/blog/featuredImages/2025/malaysias-ten-days-in-microgravity-experiments-on-the-iss.webp"
+featuredImage: "/assets/article/featuredImages/2025/malaysias-ten-days-in-microgravity-experiments-on-the-iss.webp"
 description: The mission was not only about sending Malaysia's first astronaut into space, but also about giving local scientists the opportunity to test their research in the unique environment of microgravity.
 ---
 
@@ -12,7 +12,7 @@ The mission was not only about sending Malaysia's first astronaut into space, bu
 
 ## Experiments on Board: Malaysia's Scientific Contribution
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/4/1.jpg)
+![](/assets/article/2025/siri-angkasawan-malaysia/4/1.jpg)
 <p class="img-desc">(Infographic showing Malaysia's overall mission to the ISS. Source: MOSTI)</p>
 
 The International Space Station (ISS) is not just a place where astronauts live , it's also a floating laboratory! It allows scientists to test how life, materials, and technology behave in microgravity, something impossible to fully recreate on Earth. In this environment, objects lose their sense of weight, and astronauts can float freely, making it an ideal platform for unique scientific studies.
@@ -47,10 +47,10 @@ The Angkasawan Program (PAN) didn't end when Dr. Sheikh Muszaphar came back from
 Apart from the six official research projects, Sheikh Muszaphar also carried out symbolic and educational activities. He demonstrated how a spinning top (gasing) behaves in space, making complex physics more relatable to students back home. Traditional Malaysian food such as rendang was also tested in orbit to see if cultural cuisine could one day be part of astronauts' meals. Most notably, he became the first Muslim astronaut to perform prayers on the ISS, following special guidelines prepared by JAKIM.
 
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/4/2.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/4/2.png)
 <p class="img-desc">(Dr. Sheikh Muszaphar demonstrated the behavior of a gasing in microgravity. Source: Youtube, Sheikh Muszaphar)</p>
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/4/3.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/4/3.png)
 <p class="img-desc">(Dr. Sheikh Muszaphar demonstrated the behavior of fluids in microgravity. Source: YouTube, Sheikh Muszaphar)</p>
 
 ## Protein Crystallisation: Malaysia's Scientific Highlight
@@ -58,25 +58,25 @@ Apart from the six official research projects, Sheikh Muszaphar also carried out
 Of all the experiments, the protein crystallisation study became Malaysia's most significant achievement.
 * **Led by:** Prof. Dr. Raja Noor Zaliha (UPM)
   
-![](/assets/blog/2025/siri-angkasawan-malaysia/4/4.jpg)
+![](/assets/article/2025/siri-angkasawan-malaysia/4/4.jpg)
 <p class="img-desc">(Dr. Raja Noor Zaliha. Source: Japan Aerospace Exploration Agency)</p>
 
 * **Scope:** 24 protein samples were eventually sent to the ISS across six missions, continuing well beyond Dr. Sheikh's flight.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/4/5.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/4/5.png)
 <p class="img-desc">(Protein samples carried by Malaysia's astronaut to the ISS. Source: Universiti Putra Malaysia Institutional Repository)</p>
 
 * **Why it mattered:** Gravity on Earth disrupts how proteins form crystals. In space, they can grow larger and more perfectly, producing clearer molecular structures.
   
 * **Applications:** Understanding these structures is vital for drug development, enzyme engineering, and biotechnology.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/4/6.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/4/6.png)
 <p class="img-desc">(Dr. Hapizah Mohd. Nawi (right) explaining the procedure of transporting research test tube samples from UiTM's Faculty of Medicine to Malaysia's astronauts Dr. Faiz Khaleed (left) and Dr. Sheikh Muszaphar Shukor in Shah Alam. Source: Universiti Putra Malaysia Institutional Repository)</p>
 
 ### [Warning: You're Entering Nerd Territory]
 Even more meaningful was the origin of these proteins. Back in 2002, during the Eighth Malaysia Plan (RMK-8), researchers isolated microorganisms from palm oil mill waste. From this, they discovered Lipase T1, a heat-resistant enzyme with major industrial potential. Taking this enzyme into space was a way to unlock even greater scientific value.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/4/7.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/4/7.png)
 <p class="img-desc">(Protein crystals formed through Malaysia's microgravity research program. Source: Universiti Putra Malaysia Institutional Repository)</p>
 
 Research in microgravity confirmed that protein crystallisation in space produced larger, purer, and less defective crystals compared to Earth, allowing scientists to analyze protein structures with greater accuracy. This opened new opportunities for drug design and industrial enzyme applications.
@@ -106,7 +106,7 @@ Under the Ninth and Tenth Malaysia Plans (RMK-9 and RMK-10):
 Many of these achievements were driven by a structured program of research projects launched under RMK-9. These covered a wide range of scientific fields, from structural biology and microbiology to space medicine and biotechnology, each designed to deepen Malaysia's role in space science:
 
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/4/8.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/4/8.png)
 <p class="img-desc">(List of Research Projects under the Space Science Development Program, 9th Malaysia Plan (RMK-9). Source: Universiti Putra Malaysia Institutional Repository)</p>
 
 Malaysia also gained international recognition, with collaborations from NASA, ESA, and JAXA. Notably:

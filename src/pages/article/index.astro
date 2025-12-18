@@ -1,32 +1,33 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import PostCard from "@/components/PostCard.astro";
 import { getCollection } from "astro:content";
 import { filterArticles } from "@/utils/filterArticles";
+import Header from "@/components/Header.astro";
+import Writings from "@/components/Writings.astro";
 
-const allArticlesFresh = await getCollection("blog");
+const allArticlesFresh = await getCollection("article");
 const allArticles = await filterArticles(allArticlesFresh, "recent", null);
 ---
 
 <BaseLayout>
+  <Header />
+
   <section class="main-layout pt-32 grid gap-4">
-    <h1 class="text-3xl font-bold text-white">Blog</h1>
+    <h1 class="text-3xl font-bold text-white">Article</h1>
     <p class="text-lg">
-      Welcome to my blog! Here, I focus on writing academic-related topics such as programming,
+      Welcome to my article! Here, I focus on writing academic-related topics such as programming,
       physics, math, and more. I will also post updates about my projects' progress here. If you are
       more interested in reading my personal blog, check out my
-      <a
-        class="text-themePrimary hover:underline"
-        target="_blank"
-        href="https://thisisaidil.medium.com">Medium</a
+      <a class="text-white hover:underline" target="_blank" href="https://thisisaidil.medium.com"
+        >Medium</a
       >.
     </p>
   </section>
 
-  <section class="main-layout my-16 grid gap-6">
+  <section class="main-layout my-16">
     {
       allArticles.map((article) => {
-        return <PostCard article={article} />;
+        return <Writings article={article} />;
       })
     }
   </section>

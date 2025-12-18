@@ -2,7 +2,7 @@
 title: Complete Introduction To Six Keplerian Elements For Beginners
 pubDate: 2025-01-11
 tags: ["Physics", "Orbital Mechanics"]
-featuredImage: "/assets/blog/featuredImages/2025/complete-introduction-to-six-keplerian-elements-for-beginners.png"
+featuredImage: "/assets/article/featuredImages/2025/complete-introduction-to-six-keplerian-elements-for-beginners.png"
 description: In school, we often assume that the orbits of satellites and planets are perfectly circular. However, in real-world applications, orbital mechanics are far more intricate.
 ---
 
@@ -26,7 +26,7 @@ The **Keplerian Elements** provides detailed information about an orbit's charac
 
 The **semi-major axis** (denoted as **_a_**) determines the size of an orbit. A larger value of **_a_** corresponds to a bigger orbit, while a smaller value of **_a_** corresponds to a smaller orbit. For a perfectly circular orbit, **_a_** is equal to the radius of the orbit. However, most orbits are not perfect circles; they are elliptical (oval-shaped).
 
-![](/assets/blog/2025/1/1.webp)
+![](/assets/article/2025/1/1.webp)
 <p class="img-desc">(Figure 1.0)</p>
 
 From the figure, you can see that an elliptical orbit has two axes: the **minor axis** (the shortest part of the ellipse) and the **major axis** (the longest part of the ellipse). The semi-major axis is half of the major axis.
@@ -41,14 +41,14 @@ The value of **_e_** ranges from 0 to 1. For a perfectly circular orbit, **_e_**
 
 Here’s a great GIF visualizing how eccentricity affects the shape of an orbit.
 
-![](/assets/blog/2025/1/2.gif)
+![](/assets/article/2025/1/2.gif)
 <p class="img-desc">(Figure 2.0, Simulation: GeoGebra)</p>
 
 ## 3. Inclination, *i*
 
 The **Inclination** (denoted as **_i_**) of an orbit refers to the angle between the orbital plane and the reference plane, typically known as the **Equatorial Plane** for Earth-centric orbits. Understanding inclination can be challenging without visual aids, so let’s refer to the diagram below:
 
-![](/assets/blog/2025/1/3.webp)
+![](/assets/article/2025/1/3.webp)
 <p class="img-desc">(Figure 3.0)</p>
 
 
@@ -67,7 +67,7 @@ The **ascending node** is the point where the object moves from the lower part o
 
 The Right Ascension of the Ascending Node (RAAN) or also known as the Longitude of the Ascending Node (denoted as **_Ω_**) determines the orientation of the orbit's ascending node relative to a reference direction.
 
-![](/assets/blog/2025/1/3.webp)
+![](/assets/article/2025/1/3.webp)
 <p class="img-desc">(Figure 4.0)</p>
 
 For satellites that orbit the Earth, the reference direction would be the **Vernal Equinox** which acted as a fixed reference direction. The vernal equinox direction is essentially the line from the **center of the Earth** to the **center of the Sun** at the exact moment the Sun appears to cross the Earth's equator from south to north.
@@ -79,7 +79,7 @@ The intersection of these two planes forms a line known as the **Line of Nodes**
 1. The **descending node**: Where the object moves from above the reference plane to below it.
 2. The **ascending node**: Where the object moves from below the reference plane to above it.
 
-![](/assets/blog/2025/1/4.webp)
+![](/assets/article/2025/1/4.webp)
 <p class="img-desc">(Figure 4.1)</p>
 
 ## 5. Argument of Periapsis, _ω_
@@ -97,7 +97,7 @@ The points at each end of the major axis are known as the **periapsis** and **ap
 - **Periapsis**: The closest point from the central body.
 - **Apoapsis**: The farthest point from the central body.
 
-![](/assets/blog/2025/1/5.webp)
+![](/assets/article/2025/1/5.webp)
 <p class="img-desc">(Figure 5.0)</p>
 
 While **periapsis** and **apoapsis** are general terms, specific names are used depending on the celestial body being orbited:
@@ -108,7 +108,7 @@ To maintain clarity, I will use the general terms **periapsis** and **apoapsis**
 
 **The argument of periapsis is the angle measured within the orbital plane, from the ascending node to the periapsis of the orbit, in the direction of motion**. It essentially describes how the orbit is oriented within its plane.
 
-![](/assets/blog/2025/1/6.webp)
+![](/assets/article/2025/1/6.webp)
 <p class="img-desc">(Figure 5.1)</p>
 
 The value of **_ω_** directly determines the placement of the periapsis relative to the ascending node:
@@ -122,7 +122,7 @@ The value of **_ω_** directly determines the placement of the periapsis relativ
 1. The **periapsis**.
 2. The current position of the orbiting object.
 
-![](/assets/blog/2025/1/3.webp)
+![](/assets/article/2025/1/3.webp)
 <p class="img-desc">(Figure 6.0)</p>
 
 The value of **_v_** can range from 0° to 360°

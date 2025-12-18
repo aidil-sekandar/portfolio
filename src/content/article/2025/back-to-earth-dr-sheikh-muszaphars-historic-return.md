@@ -2,7 +2,7 @@
 title: "Back to Earth: Dr. Sheikh Muszaphar's Historic Return [Siri Angkasawan Malaysia #6]"
 pubDate: 2025-09-21
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/blog/featuredImages/2025/back-to-earth-dr-sheikh-muszaphars-historic-return.webp"
+featuredImage: "/assets/article/featuredImages/2025/back-to-earth-dr-sheikh-muszaphars-historic-return.webp"
 description: After more than a week of conducting biomedical experiments, experiencing Ramadan in orbit, and observing Earth from space, it was time to return home
 
 ---
@@ -12,7 +12,7 @@ October 21, 2007 marked the end of Dr. Sheikh Muszaphar Shukor's historic stay a
 ## Farewell to the ISS
 That morning, Sheikh Muszaphar bid farewell to the crew remaining aboard the ISS. Together with Russian cosmonauts Fyodor Yurchikhin and Oleg Kotov, he climbed into the Soyuz TMA-10 capsule. The cramped descent module, designed for survival rather than comfort, barely had enough room for three adults.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/6/1.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/6/1.png)
 <p class="img-desc">(Sheikh Muszaphar bids farewell to crew members before entering the Soyuz TMA-10 capsule. Source: AP Archive)</p>
 
 At 2:14 a.m. Moscow Time (3:14 p.m. Malaysian time), the Soyuz undocked from the aft port of the Zvezda service module. Three minutes later, the spacecraft performed a short separation burn to increase distance from the station.
@@ -33,19 +33,19 @@ The ballistic mode shortened the trip but punished the astronauts physically.
 ## Touchdown in Kazakhstan
 At 10:35:49 UTC (6:35 p.m. Malaysian Time), the Soyuz touched down safely on the windswept Kazakh steppe, about 340–370 km west of the planned landing site near Arkalyk.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/6/2.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/6/2.png)
 <p class="img-desc">(Map showing the actual landing site and the  ballistic landing site. Source: AP Archive)</p>
 
 Recovery teams quickly located the capsule, which bore scorch marks, damaged antennas, and a small grass fire caused by the soft-landing engines.
 
 The crew was assisted out of the capsule, given warm blankets and hot tea, and examined by flight doctors. Despite the violent landing and high G-forces, all three crew members were in good health.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/6/3.jpg)
+![](/assets/article/2025/siri-angkasawan-malaysia/6/3.jpg)
 <p class="img-desc">(Soyuz TMA-10 recovery. Source: Spacefacts)</p>
 
 After about two hours of post-landing rest, Dr. Sheikh Muszaphar and the cosmonauts boarded a Russian military transport plane for Kustanai, and then onward to Star City, arriving at the Chkalovsky airfield near the Gagarin Cosmonaut Training Centre around midnight Malaysian time.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/6/4.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/6/4.png)
 <p class="img-desc">(Dr. Sheikh Muszaphar waving after a successful landing. Source: YouTube, Sheikh Muszaphar)</p>
 
 ## Political and Ceremonial Highlights
@@ -63,7 +63,7 @@ On October 23, 2007, the international crew held a press conference at Star City
 
 Dr Sheikh Muszaphar's remarks underscored both technical resilience and cultural representation, marking him as Malaysia's first astronaut and the first Muslim to openly discuss religious duties in orbit.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/6/5.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/6/5.png)
 <p class="img-desc">(Star City Press Conference. Source: AP Archive)</p>
 
 ## Triumphant Return to Malaysia
@@ -82,5 +82,5 @@ From the ISS to a ballistic return, from Star City to the arms of a proud nation
 * [Space Travel](https://www.space-travel.com/reports/First_Malaysian_in_space_returns_to_Earth_999.html)
 * [The Patriots](https://thepatriots.asia/dr-sheikh-muszaphar-shukor-rakyat-malaysia-pertama-di-angkasa-lepas/)
 * [NBC News](https://www.nbcnews.com/id/wbna21437010)
-* [Tripod](http://drsmshukor.tripod.com/biblio/index.blog?topic_id=1096715)
+* [Tripod](http://drsmshukor.tripod.com/biblio/index.article?topic_id=1096715)
 * [Youtube](https://youtu.be/W5atmAzKB0E?si=UycmeCBxc7MR12SL)

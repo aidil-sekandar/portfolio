@@ -7,9 +7,9 @@ export default {
 				SourceCodePro: ["SourceCodePro", "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"],
 			},
 			colors: {
-				bodyColor: "#0A192F",
-				cardColor: "#112240",
-				textContent: "#8892B0",
+				bodyColor: "#0D0E11",
+				cardColor: "#232429",
+				textContent: "#9496A1",
 				themePrimary: "#64FFDA"
 			},
 		},

@@ -2,13 +2,13 @@
 title: Nilai sebenar Pi (π) bukan 22/7?
 pubDate: 2024-07-29
 tags: ["Malay", "Math"]
-featuredImage: "/assets/blog/featuredImages/2024/1.png"
+featuredImage: "/assets/article/featuredImages/2024/1.png"
 description: Kenapa soalan matematik suruh kita guna π = 22/7? Bukan ke nilai π memang 22/7? Kita boleh guna nilai lain ke untuk π?
 ---
 
 Cuba lihat soalan matematik di bawah (diambil dari buku teks matematik tingkatan 2 KSSM),
 
-![](/assets/blog/2024/1/1.webp)
+![](/assets/article/2024/1/1.webp)
 
 Anda pernah terfikir tak kenapa soalan ni suruh kita guna π = 22/7? Bukan ke nilai π memang 22/7? Kita boleh guna nilai lain ke untuk π?
 
@@ -17,11 +17,11 @@ Untuk kita faham lebih lanjut, kita kena faham dulu apa sebenarnya yang dikataka
 
 Apa yang anda faham tentang bulatan? Berdasarkan DBP, Bulatan ditakrifkan sebagai sesuatu yang bulat atau berbentuk lingkaran. Dari sudut matematik pula, bulatan bermaksud lokus bagi titik-titik yang bergerak dari satu titik tetap pada jarak malar.
 
-![](/assets/blog/2024/1/2.webp)
+![](/assets/article/2024/1/2.webp)
 
 Pada bulatan, titik tetap tersebut dinamakan sebagai pusat bulatan. jika anda lukiskan beberapa garis bermula dari pusat ke bahagian tepi bulatan, anda akan dapati bahawa panjang bagi semua garis tersebut adalah sama. garis yang dilukis bermula dari pusat ini dinamakan sebagai jejari bulatan (r). Perimeter bulatan pula dinamakan sebagai lilitan bulatan (c).
 
-![](/assets/blog/2024/1/3.webp)
+![](/assets/article/2024/1/3.webp)
 
 Garis yang dilukis merentasi bulatan (dengan syarat garis tersebut mesti melintasi pusat bulatan) dinamakan sebagai diameter (d). Cara mudah mengira nilai diameter adalah dengan mendarabkan jejari dengan 2 (d = 2r).
 
@@ -50,18 +50,18 @@ Disebabkan π merupakan suatu nisbah, nilai π adalah tetap untuk semua saiz bul
 
 Jom kita tengok macam mana nilai π ditentukan (gambar di bawah berformat *gif*, kalau gambar tak bergerak, cuba *reload page* ni).
 
-![](/assets/blog/2024/1/4.gif)
+![](/assets/article/2024/1/4.gif)
 
 Persoalan untuk mencari nilai pi adalah secara mudahnya; “berapa diameter yang diperlukan untuk menyamai nilai lilitan bulatan?”
 
-![](/assets/blog/2024/1/5.webp)
+![](/assets/article/2024/1/5.webp)
 
 Daripada gambar di atas, kita dapati bahawa diameter yang diperlukan untuk menyamai nilai lilitan bulatan (garis merah)  adalah 3 diameter lebih (3.xxx d). Jadi, kita boleh cakap yang nilai π adalah lebih daripada 3 tetapi kurang daripada 4 atau **3<π<4**. Bahagian 'lebihan' tu kita wakilkan dengan pemboleh ubah y.
 
 > π = 3 + y  
 > *dimana y < 1
 
-![](/assets/blog/2024/1/6.webp)
+![](/assets/article/2024/1/6.webp)
 
 Gambar di atas pula menunjukkan diameter bulatan adalah kira-kira 7 kali nilai y atau **y ≈ 1/7 d**. Jika kita masukkan nilai ini ke dalam formula tadi,
 
@@ -78,7 +78,7 @@ Sebenarnya, belum habis lagi. Ingat lagi tak apa yang saya cakap pasal π? π ia
 
 Nilai sebenar untuk bahagian y yang kita kira tadi (1/7 d), bukan nilai yang tepat.
 
-![](/assets/blog/2024/1/7.webp)
+![](/assets/article/2024/1/7.webp)
 
 Gambar di atas menunjukkan bahagian y yang sebenar.
 

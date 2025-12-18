@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "SourceCodePro";
-  src: url("/fonts/SourceCodePro/SourceCodePro.woff2") format("woff2"),
-    url("/fonts/SourceCodePro/SourceCodePro.woff") format("woff"),
-    url("/fonts/SourceCodePro/SourceCodePro.ttf") format("truetype");
-  font-weight: 300 900;
-  font-display: swap;
-  font-style: normal;
-}
-
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -19,32 +9,42 @@
   background: #2d2e34;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #33cb936f;
+  background-color: rgba(255, 255, 255, 0.747);
   border-radius: 0.75rem;
   border: 3px solid #2d2e34;
+}
+
+body {
+  font-family: "Geist", sans-serif;
 }
 
 header {
   position: fixed;
   width: 100%;
-  background: rgba(10, 25, 47);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(13, 14, 17, 0.73);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15.3px);
+  -webkit-backdrop-filter: blur(15.3px);
+  border: 1px solid rgba(13, 14, 17, 0.71);
   z-index: 100;
 }
 
-img {
-  @apply rounded-xl border-2 border-themePrimary;
-}
-
 .hamburger {
-  background: rgba(10, 25, 47);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: rgba(0, 0, 0, 0.95);
+  border: 1px solid #232429;
 }
 
 .main-layout {
-  @apply px-6 max-w-[60rem] mx-auto;
+  @apply px-6 max-w-[50rem] mx-auto;
 }
 
 .skill-card > div > i {
   @apply hover:text-white;
+}
+
+@media screen and (width >= 768px) {
+  .hamburger {
+    background-color: transparent !important;
+  }
 }

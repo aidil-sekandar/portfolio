@@ -2,7 +2,7 @@
 title: "Before the Launch: The History That Sent a Malaysian to Space [Siri Angkasawan Malaysia #1]"
 pubDate: 2025-04-12
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/blog/featuredImages/2025/before-the-launch-the-history-that-sent-a-malaysian-to-space.webp"
+featuredImage: "/assets/article/featuredImages/2025/before-the-launch-the-history-that-sent-a-malaysian-to-space.webp"
 description: "Remember the song we always sang during motivation programs or seminars? The one that goes: Gemuruh Jiwa!! Semangat Membara!! Dari Puncak ingin ke angkasa"
 ---
 
@@ -14,12 +14,12 @@ Yes, *Gemuruh Jiwa* by Faizal Tahir. It was such a catchy, uplifting song that a
 
 That being said, I was always more intrigued by the lyrics and the background video used with the song. It talked about angkasa (space), showing photos of astronauts in full spacesuits, ready for launch, and videos of them floating around the space station. Little did I know back then, the man in those videos was Dr. Sheikh Muszaphar, Malaysia's very first astronaut! We actually have an astronaut?!
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/1/1.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/1/1.png)
 <p class="img-desc">(source: Youtube, AZNALISA BINTI YAACOB)</p>
 
 Since then, I've always dreamed of becoming an astronaut myself. I still remember that Upin & Ipin episode where Upin wanted to be an astronaut and Ipin was handling the rocket - it boosted my passion even more. It has become my dream for a Malaysian to once again step into the cosmos.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/1/2.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/1/2.png)
 <p class="img-desc">(Source: Les' Copaque Production)</p>
 
 But all this got me thinking: why did Malaysia suddenly decide to send one of our own into space? What's the story and history behind it?
@@ -41,14 +41,14 @@ Just a few months later, on 5 August 2003, Malaysia formally sealed the Sukhoi a
 
 Just two days later, on August 7, 2003, Dr. Mahathir officially announced the Angkasawan program, officially known as **Program Angkasawan Negara (PAN)**. The name *Angkasawan*, derived from the Malay word for astronaut, symbolized a bold new chapter in the nation's history. 
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/1/3.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/1/3.png)
 <p class="img-desc">(Dr. Mahathir announcing the program. Source: TV3)</p>
 
 The announcement came during his visit to the team behind RazakSAT, Malaysia's second micro-satellite, at Astronautic Technology (M) Sdn. Bhd. in Technology Park Malaysia, Kuala Lumpur. 
 
 There, Dr. Mahathir revealed that two or three Malaysians would be sent to Russia for astronaut training, preparing for a joint space research mission with Russian cosmonauts.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/1/4.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/1/4.png)
 <p class="img-desc">(Poster for Program Angkasawan Negara. Source: MOSTI)</p>
 
 ## Malaysia's Space Ambition

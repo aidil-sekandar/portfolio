@@ -2,13 +2,13 @@
 title: "Sacred Orbit: Malaysia's Role in Establishing Faith Guidelines for Astronauts [Siri Angkasawan Malaysia #5]"
 pubDate: 2025-08-30
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/blog/featuredImages/2025/sacred-orbit-malaysias-role-in-establishing-faith-guidelines-for-astronauts.webp"
+featuredImage: "/assets/article/featuredImages/2025/sacred-orbit-malaysias-role-in-establishing-faith-guidelines-for-astronauts.webp"
 description: It was more than a national milestone , it was a moment for the global Muslim community, exploring how faith can coexist with space exploration.
 ---
 
 In 2007, Malaysia made history when Dr. Sheikh Muszaphar Shukor blasted off to the International Space Station (ISS). It was more than a national milestone , it was a moment for the global Muslim community, exploring how faith can coexist with space exploration.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/5/1.jpg)
+![](/assets/article/2025/siri-angkasawan-malaysia/5/1.jpg)
 <p class="img-desc">(Photograph of Prince Sultan bin Salman of Saudi Arabia. Source: MuslimMate)</p>
 
 Unlike earlier Muslim astronauts, **Prince Sultan bin Salman of Saudi Arabia in 1985** or **Anousheh Ansari**, an Iranian-American space tourist, in 2006, who had to figure out religious obligations on their own, Malaysia took a meticulous approach. 
@@ -24,13 +24,13 @@ To make this possible, **over 150 Islamic scholars, scientists, and academics co
 
 The outcome was the ***Guidelines for Performing Islamic Rites at the ISS***, an 18-page booklet detailing everything a Muslim astronaut needs to know. It has since been translated into multiple languages, paving the way for future Muslim travelers in space.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/5/2.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/5/2.png)
 <p class="img-desc">(Booklet cover, Guidelines for Performing Islamic Rites at the ISS. Source: JAKIM)</p>
 
 ## Praying in Orbit
 Prayer posed unique challenges. The ISS completes an orbit in just 90 minutes, meaning that the station circles Earth 16 times a day. If every prayer were performed strictly according to Earth times, astronauts would need to pray **up to 80 times in 24 hours** (Originially 5 times a day).
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/5/3.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/5/3.png)
 <p class="img-desc">(Dr. Sheikh Muszaphar praying aboard the ISS. Source: YouTube, Sheikh Muszaphar)</p>
 
 The solution? Astronauts were advised to follow the prayer schedule of the launch site. For Dr. Sheikh Muszaphar, that meant Baikonur Cosmodrome in Kazakhstan.
@@ -42,23 +42,23 @@ Then there's the matter of direction (qibla). The station moves at 27,577 km/h, 
 4. **Any direction** *with sincere intention.*
 
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/5/4.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/5/4.png)
 <p class="img-desc">(Guidance on performing prayers in space. Source: JAKIM)</p>
 
 Zero gravity also meant traditional prayer postures - kneeling, bowing - were difficult. Astronauts could strap themselves to the spacecraft and perform prayers according to their abilities.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/5/5.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/5/5.png)
 <p class="img-desc">(Dr. Sheikh Muszaphar performing prayers strapped to the ISS. Source: Youtube, Sheikh Muszaphar)</p>
 
 ## Ablutions and Hygiene
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/5/6.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/5/6.png)
 <p class="img-desc">(Dr. Sheikh Muszaphar performing tayammum aboard the ISS. Source: Youtube, Sheikh Muszaphar
 )</p>
 
 Water scarcity in space meant alternative solutions for ritual purity. Tayammum (dry ablution) became standard, performed by wiping hands on a clean surface. For cleaning after using the restroom, wet wipes replaced running water. Even small adjustments like these allowed astronauts to remain compliant with Islamic law without compromising mission safety.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/5/7.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/5/7.png)
 <p class="img-desc">(Guidance on performing ablutions and maintaining ritual purity. Source: JAKIM)</p>
 
 ## Fasting in Ramadan
@@ -67,7 +67,7 @@ Dr. Sheikh Muszaphar's mission coincided with Ramadan, adding another layer of c
 * Postpone fasting if health or mission safety required.
 * Make up missed days later on Earth.
 
-![](/assets/blog/2025/siri-angkasawan-malaysia/5/8.png)
+![](/assets/article/2025/siri-angkasawan-malaysia/5/8.png)
 <p class="img-desc">(Guidance from the JAKIM booklet on fasting for astronauts in space. Source: JAKIM)</p>
 
 This balance of devotion and practicality showed how Islam adapts to extreme circumstances while preserving spiritual integrity.

@@ -1,14 +1,14 @@
 /* Tutorial Content Styling */
 .content > h2 {
-  @apply text-3xl text-themePrimary font-bold mt-5;
+  @apply text-3xl text-white font-bold mt-5;
 }
 
 .content > p {
-  @apply leading-8 text-lg;
+  @apply leading-8 text-lg text-textContent;
 }
 
 .content > h3 {
-  @apply text-2xl font-semibold text-themePrimary;
+  @apply text-2xl font-semibold text-white;
 }
 
 .content > ul {
@@ -24,7 +24,7 @@
 }
 
 .content > blockquote {
-  @apply bg-[#05152c] border-2 border-[#242b42] p-4 border-l-4 border-l-emerald-400 text-gray-300 italic;
+  @apply bg-[#232429] p-4 border-l-4 border-l-white text-gray-300 italic;
 }
 
 .content strong {
