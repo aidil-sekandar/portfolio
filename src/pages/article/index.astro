@@ -3,7 +3,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { filterArticles } from "@/utils/filterArticles";
 import Header from "@/components/Header.astro";
-import Writings from "@/components/Writings.astro";
+import Writings from "@/components/Writings";
 
 const allArticlesFresh = await getCollection("article");
 const allArticles = await filterArticles(allArticlesFresh, "recent", null);

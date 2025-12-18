@@ -2,9 +2,12 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { filterArticles } from "@/utils/filterArticles";
-import Writings from "@/components/Writings.astro";
+import { fetchMediumPosts } from "@/utils/medium";
 import Header from "@/components/Header.astro";
+import ArticleWindow from "@/components/ArticleWindow";
+import Projects from "@/components/Projects.astro";
 
+const allMedium = await fetchMediumPosts();
 const allArticlesFresh = await getCollection("article");
 const allArticles = await filterArticles(allArticlesFresh, "recent", null);
 ---
@@ -14,10 +17,10 @@ const allArticles = await filterArticles(allArticlesFresh, "recent", null);
   <main class="main-layout px-4 pt-20 mb-16">
     <section class="grid gap-4 mt-10">
       <div class="flex justify-center">
-        <img class="w-[142px] rounded-full" src="/public/assets/profile picture.jpg" alt="" />
+        <img class="w-[142px] rounded-full" src="/public/assets/profile_picture.jpg" alt="" />
       </div>
       <div class="grid gap-2 max-w-[35rem] mx-auto">
-        <h1 class="text-center font-semibold text-3xl text-white">Aidil Iskandar.</h1>
+        <h1 class="text-center font-semibold text-3xl text-white">Aidil Iskandar</h1>
         <p class="text-center text-lg">
           As a student aspiring physicist with an interest in programming, I’m excited to share my
           projects, thoughts, and learning journey in physics and technology with you!
@@ -76,12 +79,12 @@ const allArticles = await filterArticles(allArticlesFresh, "recent", null);
       </div>
     </section>
 
-    <section class="mb-6 mt-10 bg-cardColor p-9 rounded-2xl">
+    <!-- <section class="mb-6 mt-10 bg-cardColor p-9 rounded-2xl">
       <div class="grid gap-1 mb-4">
-        <h2 class="text-white font-semibold text-xl">Subscribe to Newsletter</h2>
+        <h2 class="text-white font-semibold text-xl">Subscribe to My Newsletter</h2>
         <p>
-          Join me as I share STEM insights, personal reflections, and practical advice for students
-          navigating education.
+          Stay updated as I share insights on STEM, personal reflections, and practical guidance for
+          students navigating their educational journey.
         </p>
       </div>
       <form class="mx-auto flex gap-x-4">
@@ -105,26 +108,51 @@ const allArticles = await filterArticles(allArticlesFresh, "recent", null);
       <p class="text-center text-xs mt-3 text-[#ffffff59]">
         No spam, no sharing to third party. Only you and me.
       </p>
+    </section> -->
+
+    <section class="mt-16">
+      <h2 class="text-white text-3xl font-semibold mb-4">Recent Projects</h2>
+      <div class="grid sm:grid-cols-2 gap-5">
+        <Projects
+          img="siri-angkasawan-malaysia"
+          name="Siri Angkasawan Malaysia"
+          description="Siri Angkasawan Malaysia is a series of articles that explores the historic journey of Malaysia’s astronaut program."
+          techList={[]}
+          link="https://aidiliskandar.space/article/"
+          type="Article Series"
+        />
+        <Projects
+          img="study-with-aidil"
+          name="Study With Aidil"
+          description="Aidil Iskandar's academic vault"
+          techList={["Astro", "React", "Tailwind"]}
+          link="https://study.aidiliskandar.space/"
+          github="https://github.com/aidil-sekandar/study-with-aidil"
+          type="Personal Project"
+        />
+        <Projects
+          img="tia"
+          name="Tutors In Action's Official Website"
+          description="Connecting SPM students with volunteer tutors."
+          techList={["Hugo", "Bootstrap"]}
+          link="https://tutors-in-action.org/"
+          type="Official Website"
+        />
+        <Projects
+          img="hugo-tailwind-starter"
+          name="Hugo Tailwind Starter"
+          description="Very basic Hugo + Tailwind CSS starter theme"
+          techList={["Hugo", "Tailwind"]}
+          link="https://hugo-tailwind-starter.netlify.app/"
+          github="https://github.com/aidil-sekandar/hugo-tailwind-starter"
+          type="Hugo Template"
+        />
+      </div>
     </section>
 
-    <section class="mt-10">
-      <h2 class="text-white text-xl font-semibold">Posts & Articles.</h2>
-      {
-        allArticles.slice(0, 3).map((article) => {
-          return <Writings article={article} />;
-        })
-      }
-      <div class="mt-4 grid justify-center">
-        <a
-          href="/article"
-          class="rounded-md py-3 px-6 w-max text-base md:text-md flex items-center border-2 border-[#BABABC] hover:bg-[#ffffff10] text-white"
-          ><span class="mr-2">Read all ({allArticles.length})</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-            ><path fill="currentColor" fill-rule="evenodd" d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z"
-            ></path></svg
-          >
-        </a>
-      </div>
+    <section class="mt-16">
+      <h2 class="text-white text-3xl font-semibold mb-4">Thoughts</h2>
+      <ArticleWindow client:load allArticles={allArticles} allMedium={allMedium} />
     </section>
   </main>
 </BaseLayout>

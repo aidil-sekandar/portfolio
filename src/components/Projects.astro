@@ -2,42 +2,30 @@
 const { img, status, name, description, techList, type = "", github = "", link = "" } = Astro.props;
 ---
 
-<div class="p-8 grid md:grid-cols-2 gap-8 items-center bg-cardColor rounded-2xl">
-  <div class="relative">
-    <div class="absolute top-3 left-5 bg-[rgb(10,25,47)] py-1 pl-2 rounded">
-      <p class="text-white flex items-center gap-2">
-        {status}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class={`${status == "Online" ? "text-emerald-400" : "text-amber-300"}`}
-          width="1.5em"
-          height="1.5em"
-          viewBox="0 0 2048 2048"
-        >
-          <rect width="2048" height="2048" fill="none"></rect>
-          <path
-            fill="currentColor"
-            d="M1024 640q79 0 149 30t122 82t83 123t30 149q0 80-30 149t-82 122t-123 83t-149 30q-80 0-149-30t-122-82t-83-122t-30-150q0-79 30-149t82-122t122-83t150-30"
-          ></path>
-        </svg>
-      </p>
-    </div>
+<div class="p-2 items-center rounded-2xl">
+  <div class="mb-4">
     <a href={link} target="_blank">
-      <img loading="lazy" src={`./assets/${img}.png`} alt="The TEX Project" />
+      <img
+        class="rounded-lg project-img hover:scale-105 duration-100 border border-[#ffffff30]"
+        loading="lazy"
+        src={`./assets/${img}.png`}
+        alt="The TEX Project"
+      />
     </a>
   </div>
   <div>
-    <h3 class="text-xl font-semibold text-themePrimary">
+    <h3 class="text-md mb-2 text-textContent font-semibold">
       {type}
     </h3>
+
     <h2 class="text-3xl font-bold text-white mb-4">{name}</h2>
-    <div class="bg-[#112240] p-4 mb-4">
+    <div class="bg-cardColor p-4 mb-4 rounded-lg">
       <p>{description}</p>
     </div>
     <ul class="flex gap-4 mb-3">
       {
         techList.map((tech) => {
-          return <li class="hover:text-themePrimary">{tech}</li>;
+          return <li class="hover:text-whie">{tech}</li>;
         })
       }
     </ul>
@@ -45,7 +33,7 @@ const { img, status, name, description, techList, type = "", github = "", link =
       {
         link && (
           <li>
-            <a aria-label="link" class="hover:text-themePrimary" href={link} target="_blank">
+            <a aria-label="link" class="hover:text-white" href={link} target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                 <rect width="24" height="24" fill="none" />
                 <path
@@ -64,12 +52,7 @@ const { img, status, name, description, techList, type = "", github = "", link =
       {
         github && (
           <li>
-            <a
-              class="hover:text-themePrimary"
-              href={github}
-              target="_blank"
-              aria-label="github-links"
-            >
+            <a class="hover:text-white" href={github} target="_blank" aria-label="github-links">
               <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                 <rect width="24" height="24" fill="none" />
                 <path
@@ -84,3 +67,9 @@ const { img, status, name, description, techList, type = "", github = "", link =
     </ul>
   </div>
 </div>
+
+<style>
+  .project-img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+</style>

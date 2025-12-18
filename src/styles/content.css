@@ -32,11 +32,11 @@
 }
 
 .content a {
-  @apply underline relative inline-flex items-center;
+  @apply relative inline-flex items-center text-white;
 }
 
 .content a:hover {
-  @apply text-themePrimary;
+  @apply underline;
 }
 
 .content a::after {
