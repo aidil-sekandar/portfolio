@@ -17,7 +17,12 @@ const allArticles = await filterArticles(allArticlesFresh, "recent", null);
   <main class="main-layout px-4 pt-20 mb-16">
     <section class="grid gap-4 mt-10">
       <div class="flex justify-center">
-        <img class="w-[142px] rounded-full" src="/public/assets/profile_picture.png" alt="" />
+        <img
+          class="w-[142px] rounded-full"
+          loading="lazy"
+          src="./assets/profile_picture.png"
+          alt=""
+        />
       </div>
       <div class="grid gap-2 max-w-[35rem] mx-auto">
         <h1 class="text-center font-semibold text-3xl text-white">Aidil Iskandar</h1>
