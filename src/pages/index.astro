@@ -119,20 +119,21 @@ const allArticles = await filterArticles(allArticlesFresh, "recent", null);
       <h2 class="text-white text-3xl font-semibold mb-4">Recent Projects</h2>
       <div class="grid sm:grid-cols-2 gap-5">
         <Projects
-          img="siri-angkasawan-malaysia"
-          name="Siri Angkasawan Malaysia"
-          description="Siri Angkasawan Malaysia is a series of articles that explores the historic journey of Malaysia’s astronaut program."
-          techList={[]}
-          link="https://aidiliskandar.space/article/"
-          type="Article Series"
-        />
-        <Projects
           img="study-with-aidil"
           name="Study With Aidil"
-          description="Aidil Iskandar's academic vault"
+          description="A personal platform sharing IB Diploma notes and resources I created myself."
           techList={["Astro", "React", "Tailwind"]}
           link="https://study.aidiliskandar.space/"
           github="https://github.com/aidil-sekandar/study-with-aidil"
+          type="Personal Project"
+        />
+        <Projects
+          img="online-snooker-scoreboard"
+          name="Online Snooker Scoreboard"
+          description="Interactive snooker scoreboard with turn and frame tracking."
+          techList={["Astro", "Typescript", "React", "Tailwind"]}
+          link="https://snookerscoreboard.netlify.app/"
+          github="https://github.com/aidil-sekandar/snooker_scoreboard"
           type="Personal Project"
         />
         <Projects
@@ -141,16 +142,15 @@ const allArticles = await filterArticles(allArticlesFresh, "recent", null);
           description="Connecting SPM students with volunteer tutors."
           techList={["Hugo", "Bootstrap"]}
           link="https://tutors-in-action.org/"
-          type="Official Website"
+          type="Contribution"
         />
         <Projects
-          img="hugo-tailwind-starter"
-          name="Hugo Tailwind Starter"
-          description="Very basic Hugo + Tailwind CSS starter theme"
-          techList={["Hugo", "Tailwind"]}
-          link="https://hugo-tailwind-starter.netlify.app/"
-          github="https://github.com/aidil-sekandar/hugo-tailwind-starter"
-          type="Hugo Template"
+          img="siri-angkasawan-malaysia"
+          name="Siri Angkasawan Malaysia"
+          description="Siri Angkasawan Malaysia is a series of articles that explores the historic journey of Malaysia’s astronaut program."
+          techList={[]}
+          link="https://aidiliskandar.space/article/"
+          type="Article Series"
         />
       </div>
     </section>
