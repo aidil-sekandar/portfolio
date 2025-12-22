@@ -17,33 +17,25 @@ export const Form = () => {
 
     // Optional spam filter
     const spamDomains = ['spamwebsite.com'];
-    if (
-      spamDomains.some((domain) =>
-        (formData.get('comment') as string)?.includes(domain)
-      )
-    ) {
+    if (spamDomains.some(domain =>
+      (formData.get('comment') as string)?.includes(domain)
+    )) {
       setHasError(true);
       setIsSendingForm(false);
       return;
     }
 
-    fetch('/', {
+    // POST to current page so Netlify detects it
+    fetch(window.location.pathname, {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: urlEncodedData,
     })
-      .then((res) => {
-        if (res.status === 200) {
-          setHasSentComment(true);
-        } else {
-          setHasError(true);
-        }
-      })
+      .then(res => res.status === 200 ? setHasSentComment(true) : setHasError(true))
       .catch(() => setHasError(true))
       .finally(() => setIsSendingForm(false));
   };
 
-  // Reset form on success
   useEffect(() => {
     if (hasSentComment) {
       const formEl = document.getElementById('comment-form') as HTMLFormElement;
@@ -54,9 +46,7 @@ export const Form = () => {
   return (
     <div className="w-full max-w-xl">
       <div role="region" aria-live="polite" className="mb-4">
-        {hasSentComment && (
-          <div className="text-green-600">Thank you for your comment!</div>
-        )}
+        {hasSentComment && <div className="text-green-600">Thank you for your comment!</div>}
         {hasError && <div className="text-red-600">Comment could not be sent.</div>}
       </div>
 
@@ -78,46 +68,22 @@ export const Form = () => {
           </p>
 
           <p>
-            <label htmlFor="name" className="block font-semibold mb-1">
-              Name
-            </label>
-            <input
-              type="text"
-              name="name"
-              required
-              className="w-full border rounded px-3 py-2"
-            />
+            <label htmlFor="name" className="block font-semibold mb-1">Name</label>
+            <input type="text" name="name" required className="w-full border rounded px-3 py-2" />
           </p>
 
           <p>
-            <label htmlFor="email" className="block font-semibold mb-1">
-              Email (optional)
-            </label>
-            <input
-              type="email"
-              name="email"
-              className="w-full border rounded px-3 py-2"
-            />
+            <label htmlFor="email" className="block font-semibold mb-1">Email (optional)</label>
+            <input type="email" name="email" className="w-full border rounded px-3 py-2" />
           </p>
 
           <p>
-            <label htmlFor="comment" className="block font-semibold mb-1">
-              Comment
-            </label>
-            <textarea
-              name="comment"
-              required
-              rows={4}
-              className="w-full border rounded px-3 py-2"
-            />
+            <label htmlFor="comment" className="block font-semibold mb-1">Comment</label>
+            <textarea name="comment" required rows={4} className="w-full border rounded px-3 py-2" />
           </p>
 
           <p>
-            <button
-              type="submit"
-              disabled={isSendingForm}
-              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
-            >
+            <button type="submit" disabled={isSendingForm} className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50">
               {isSendingForm ? 'Sending...' : 'Send Comment'}
             </button>
           </p>
