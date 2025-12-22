@@ -3,6 +3,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import "@/styles/content.css";
 import { getCollection } from "astro:content";
 import { formatDate } from "@/utils/formatDate";
+import { Form } from "@/components/Form";
 import Header from "@/components/Header.astro";
 
 export async function getStaticPaths() {
@@ -39,5 +40,9 @@ const { Content } = await post.render();
     <main class="content grid gap-6 px-4 text-[#ffffffcb]">
       <Content />
     </main>
+    <div class="mt-8">
+      <h2 class="text-xl font-semibold mb-4">Leave a Comment</h2>
+      <Form />
+    </div>
   </section>
 </BaseLayout>
