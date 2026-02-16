@@ -1,0 +1,25 @@
+projects:
+  - img: uofa-bsc-degree-planner
+    name: UofA BSc Degree Planner
+    description: A web application designed to help University of Alberta BSc students plan their degree term-by-term
+    link: https://uofa-bsc-degree-planner.netlify.app/
+    type: Web application
+
+  - img: online-snooker-scoreboard
+    name: Online Snooker Scoreboard
+    description: Interactive snooker scoreboard with turn and frame tracking.
+    link: https://snookerscoreboard.netlify.app/
+    github: https://github.com/aidil-sekandar/snooker_scoreboard
+    type: Web Application
+
+  - img: tia
+    name: Tutors In Action's Official Website
+    description: Connecting SPM students with volunteer tutors.
+    link: https://tutors-in-action.org/
+    type: Contribution
+
+  - img: siri-angkasawan-malaysia
+    name: Siri Angkasawan Malaysia
+    description: Siri Angkasawan Malaysia is a series of articles that explores the historic journey of Malaysia's astronaut program.
+    link: http://localhost:4321/article?tag=Siri+Angkasawan+Malaysia
+    type: Article Series

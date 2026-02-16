@@ -43,6 +43,73 @@ header {
   @apply hover:text-white;
 }
 
+.glass-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.03) 40%,
+    rgba(35, 36, 41, 0.85) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.16);
+}
+
+.glass-button {
+  @apply inline-flex items-center gap-2 rounded-md py-3 px-5 text-white duration-100;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.16),
+    rgba(255, 255, 255, 0.06) 55%,
+    rgba(35, 36, 41, 0.65) 100%
+  );
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.glass-button:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.24),
+    rgba(255, 255, 255, 0.1) 55%,
+    rgba(35, 36, 41, 0.75) 100%
+  );
+}
+
+.glass-pill {
+  @apply rounded-full py-2 px-5 duration-100;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.13),
+    rgba(255, 255, 255, 0.04) 60%,
+    rgba(35, 36, 41, 0.7) 100%
+  );
+}
+
+.glass-pill-active {
+  @apply text-[#0d0e11];
+  border-color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 255, 255, 0.72) 80%
+  );
+}
+
+.glass-chip {
+  @apply inline-flex w-max py-1 px-4 rounded-full text-white text-sm;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.glass-link {
+  @apply inline-flex items-center gap-1 text-white hover:underline;
+}
+
 @media screen and (width >= 768px) {
   .hamburger {
     background-color: transparent !important;

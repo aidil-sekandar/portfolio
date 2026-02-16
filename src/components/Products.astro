@@ -1,0 +1,61 @@
+---
+const { img, name, description, type = "", price = "", link = "" } = Astro.props;
+
+const tagStyles = {
+  "google sheets template": "text-[#FFE066] bg-[#FFE0661F] border border-[#FFE06666]",
+  "notion template": "text-[#A6E3FF] bg-[#A6E3FF1A] border border-[#A6E3FF66]",
+};
+
+const tagClass = tagStyles[type.toLowerCase().trim()] ?? "text-[#D0D4DB] bg-[#D0D4DB1A] border border-[#D0D4DB4D]";
+---
+
+<article class="glass-card h-full p-4 md:p-5 flex flex-col">
+  <div class="mb-4">
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <img
+        class="rounded-lg product-img hover:scale-[1.02] duration-150 border border-[#ffffff36] w-full aspect-video object-cover"
+        loading="lazy"
+        src={`./assets/${img}.png`}
+        alt={name}
+      />
+    </a>
+  </div>
+
+  <div class="flex flex-col flex-1">
+    <div class="mb-3">
+      <span class={`inline-flex px-3 py-1 rounded-full text-sm font-semibold ${tagClass}`}>{type}</span>
+    </div>
+
+    <div class="px-2 mb-auto">
+      <h3 class="text-2xl font-bold text-white mb-2">{name}</h3>
+      <p class="mb-4">{description}</p>
+
+      <div class="inline-flex items-center gap-2 rounded-lg px-3 py-2 border border-[#ffffff38] bg-[#ffffff12]">
+        <span class="text-xs uppercase tracking-wide text-[#d7dae2]">Price</span>
+        <span class="font-semibold text-white">{price}</span>
+      </div>
+    </div>
+
+    <div class="px-2 pt-4">
+      {
+        link && (
+          <a class="glass-link" href={link} target="_blank" rel="noopener noreferrer">
+            View Product
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"
+              />
+            </svg>
+          </a>
+        )
+      }
+    </div>
+  </div>
+</article>
+
+<style>
+  .product-img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+</style>

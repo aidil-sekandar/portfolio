@@ -1,0 +1,7 @@
+products:
+  - img: uofa-bsc-degree-planner-google-sheets
+    name: UofA BSc Degree Planner
+    description: Degree planning template for UofA BSc students.
+    type: Google Sheets Template
+    price: Free
+    link: https://docs.google.com/spreadsheets/d/1A1F7kZ7NeOx1dAMztUzYiasLYVLRyjsz-aQ2RreCImw/template/preview

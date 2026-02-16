@@ -20,7 +20,7 @@ export default function ArticleWindow({ allArticles, allMedium }: ArticleWindowP
   return (
     <div className="md:col-span-2">
       {/* Tabs */}
-      <div className="flex gap-3 font-semibold">
+      <div className="flex gap-3 font-semibold mb-4">
         <Tab
           isActive={showTab === "article"}
           title="Article"
@@ -36,7 +36,7 @@ export default function ArticleWindow({ allArticles, allMedium }: ArticleWindowP
       </div>
 
       {/* Content */}
-      <div>
+      <div className="grid gap-4">
         {showTab === "article" &&
           allArticles.slice(0, 5).map((article) => (
             <Writings
@@ -55,11 +55,12 @@ export default function ArticleWindow({ allArticles, allMedium }: ArticleWindowP
       </div>
 
       {/* Readmore */}
-      <div className="mt-4 grid justify-center">
+      <div className="mt-8 grid justify-center">
         <a
           href={showTab === "article" ? "/article" : "https://thisisaidil.medium.com/"}
-          className="rounded-md py-3 px-6 w-max text-base md:text-md flex items-center border-2 border-[#BABABC] hover:bg-[#ffffff10] text-white"
+          className="glass-button w-max text-base md:text-md"
           target={showTab === "medium" ? "_blank" : undefined} // open Medium in new tab
+          rel={showTab === "medium" ? "noopener noreferrer" : undefined}
         >
           <span className="mr-2">
             Read all ({showTab === "article" ? allArticles.length : allMedium.length})

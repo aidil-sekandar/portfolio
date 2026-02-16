@@ -3,10 +3,19 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { filterArticles } from "@/utils/filterArticles";
 import Header from "@/components/Header.astro";
-import Writings from "@/components/Writings";
+import ArticleFilterList from "@/components/ArticleFilterList";
 
 const allArticlesFresh = await getCollection("article");
 const allArticles = await filterArticles(allArticlesFresh, "recent", null);
+const articleForClient = allArticles.map((article) => ({
+  slug: article.slug,
+  data: {
+    title: article.data.title,
+    description: article.data.description,
+    pubDate: article.data.pubDate.toISOString(),
+    tags: article.data.tags,
+  },
+}));
 ---
 
 <BaseLayout>
@@ -25,10 +34,6 @@ const allArticles = await filterArticles(allArticlesFresh, "recent", null);
   </section>
 
   <section class="main-layout my-16">
-    {
-      allArticles.map((article) => {
-        return <Writings article={article} />;
-      })
-    }
+    <ArticleFilterList client:load articles={articleForClient} />
   </section>
 </BaseLayout>

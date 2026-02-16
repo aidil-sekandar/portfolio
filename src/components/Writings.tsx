@@ -4,9 +4,9 @@ export default function ArticleCard({ article }) {
   return (
     <a
       href={article.slug ? `/article/${article.slug}` : article.data.link}
-      className="items-center p-6 transition"
+      className="block items-center transition"
     >
-      <div className="bg-cardColor p-6 rounded-2xl duration-100 hover:scale-[1.02]">
+      <div className="glass-card p-6 duration-100 hover:scale-[1.01]">
         <time className="text-sm">
           {formatDate(article.data.pubDate)}
         </time>
@@ -23,7 +23,7 @@ export default function ArticleCard({ article }) {
           {article.data.tags.map((tag, index) => (
             <span
               key={index}
-              className="block w-max py-1 px-4 rounded bg-[#ffffff20] text-white"
+              className="glass-chip"
             >
               {tag}
             </span>
