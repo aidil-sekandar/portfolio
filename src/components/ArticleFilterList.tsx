@@ -49,12 +49,13 @@ export default function ArticleFilterList({ articles }: ArticleFilterListProps) 
 
   function updateUrlTag(tag: string | null) {
     const url = new URL(window.location.href);
+    const normalizedPath = url.pathname !== "/" ? url.pathname.replace(/\/+$/, "") : "/";
     if (tag) {
       url.searchParams.set("tag", tag);
     } else {
       url.searchParams.delete("tag");
     }
-    window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
+    window.history.replaceState({}, "", `${normalizedPath}${url.search}${url.hash}`);
   }
 
   function onTagClick(tag: string) {
