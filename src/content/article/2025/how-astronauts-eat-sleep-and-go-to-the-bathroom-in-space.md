@@ -2,7 +2,6 @@
 title: How Astronauts Eat, Sleep, and Go to the Bathroom in Space?
 pubDate: 2025-03-20
 tags: ["Aerospace", "Astronauts"]
-featuredImage: "/assets/article/featuredImages/2025/how-astronauts-eat-sleep-and-go-to-the-bathroom-in-space.png"
 description: Ever wondered how astronauts eat, sleep, and even go to the bathroom in space? This post explores their daily routines aboard the ISS, explained directly by astronauts themselves.
 ---
 

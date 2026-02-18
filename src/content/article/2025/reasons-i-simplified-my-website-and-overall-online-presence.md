@@ -2,7 +2,6 @@
 title: "Reasons I Simplified My Website and Overall Online Presence"
 pubDate: 2025-12-19
 tags: ["Web Development"]
-featuredImage: "/assets/article/featuredImages/2025/back-to-earth-dr-sheikh-muszaphars-historic-return.webp"
 description: It's the end of the year, which means it's time for my annual project review, including updates to my personal website.
 
 ---

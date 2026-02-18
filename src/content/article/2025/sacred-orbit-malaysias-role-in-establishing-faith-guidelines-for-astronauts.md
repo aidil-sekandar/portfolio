@@ -2,7 +2,6 @@
 title: "Sacred Orbit: Malaysia's Role in Establishing Faith Guidelines for Astronauts [Siri Angkasawan Malaysia #5]"
 pubDate: 2025-08-30
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/article/featuredImages/2025/sacred-orbit-malaysias-role-in-establishing-faith-guidelines-for-astronauts.webp"
 description: It was more than a national milestone , it was a moment for the global Muslim community, exploring how faith can coexist with space exploration.
 ---
 

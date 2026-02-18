@@ -2,7 +2,6 @@
 title: "Back to Earth: Dr. Sheikh Muszaphar's Historic Return [Siri Angkasawan Malaysia #6]"
 pubDate: 2025-09-21
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/article/featuredImages/2025/back-to-earth-dr-sheikh-muszaphars-historic-return.webp"
 description: After more than a week of conducting biomedical experiments, experiencing Ramadan in orbit, and observing Earth from space, it was time to return home
 
 ---

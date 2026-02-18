@@ -2,7 +2,6 @@
 title: "Before the Launch: The History That Sent a Malaysian to Space [Siri Angkasawan Malaysia #1]"
 pubDate: 2025-04-12
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/article/featuredImages/2025/before-the-launch-the-history-that-sent-a-malaysian-to-space.webp"
 description: "Remember the song we always sang during motivation programs or seminars? The one that goes: Gemuruh Jiwa!! Semangat Membara!! Dari Puncak ingin ke angkasa"
 ---
 

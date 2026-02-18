@@ -2,7 +2,6 @@
 title: "From 11,000 to One: Malaysia's Grueling Path to the First Angkasawan [Siri Angkasawan Malaysia #2]"
 pubDate: 2025-05-23
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/article/featuredImages/2025/from-11000-to-one-malaysias-grueling-path-to-the-first-angkasawan.webp"
 description: The response was overwhelming. More than 11,000 Malaysians registered online, each dreaming of being the nation's first angkasawan.
 ---
 

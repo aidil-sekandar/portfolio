@@ -2,7 +2,6 @@
 title: Nilai sebenar Pi (π) bukan 22/7?
 pubDate: 2024-07-29
 tags: ["Malay", "Math"]
-featuredImage: "/assets/article/featuredImages/2024/1.png"
 description: Kenapa soalan matematik suruh kita guna π = 22/7? Bukan ke nilai π memang 22/7? Kita boleh guna nilai lain ke untuk π?
 ---
 

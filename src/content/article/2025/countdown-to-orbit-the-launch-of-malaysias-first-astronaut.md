@@ -2,7 +2,6 @@
 title: "Countdown to Orbit: The Launch of Malaysia's First Astronaut [Siri Angkasawan Malaysia #3]"
 pubDate: 2025-06-11
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/article/featuredImages/2025/countdown-to-orbit-the-launch-of-malaysias-first-astronaut.webp"
 description: After years of intense competition and rigorous training, Dr Sheikh Muszaphar Shukor was selected as Malaysia's first angkasawan, with Dr Faiz Khaleed as backup.
 ---
 

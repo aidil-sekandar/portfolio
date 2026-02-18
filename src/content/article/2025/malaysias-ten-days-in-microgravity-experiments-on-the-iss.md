@@ -2,7 +2,6 @@
 title: "Malaysia's Ten Days in Microgravity: Experiments on the ISS [Siri Angkasawan Malaysia #4]"
 pubDate: 2025-07-03
 tags: ["Siri Angkasawan Malaysia"]
-featuredImage: "/assets/article/featuredImages/2025/malaysias-ten-days-in-microgravity-experiments-on-the-iss.webp"
 description: The mission was not only about sending Malaysia's first astronaut into space, but also about giving local scientists the opportunity to test their research in the unique environment of microgravity.
 ---
 

@@ -2,7 +2,6 @@
 title: Complete Introduction To Six Keplerian Elements For Beginners
 pubDate: 2025-01-11
 tags: ["Physics", "Orbital Mechanics"]
-featuredImage: "/assets/article/featuredImages/2025/complete-introduction-to-six-keplerian-elements-for-beginners.png"
 description: In school, we often assume that the orbits of satellites and planets are perfectly circular. However, in real-world applications, orbital mechanics are far more intricate.
 ---
 
