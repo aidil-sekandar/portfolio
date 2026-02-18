@@ -8,7 +8,8 @@ const tagStyles = {
   "web application": "text-[#8CFFB2] bg-[#8CFFB21A] border border-[#8CFFB266]",
 };
 
-const tagClass = tagStyles[type.toLowerCase().trim()] ?? "text-[#D0D4DB] bg-[#D0D4DB1A] border border-[#D0D4DB4D]";
+const tagClass =
+  tagStyles[type.toLowerCase().trim()] ?? "text-[#D0D4DB] bg-[#D0D4DB1A] border border-[#D0D4DB4D]";
 ---
 
 <article class="glass-card h-full p-4 md:p-5 flex flex-col">
@@ -16,9 +17,8 @@ const tagClass = tagStyles[type.toLowerCase().trim()] ?? "text-[#D0D4DB] bg-[#D0
     <a href={link} target="_blank" rel="noopener noreferrer">
       <img
         class="rounded-lg project-img hover:scale-[1.02] duration-150 border border-[#ffffff36] w-full aspect-video object-cover"
-        
         loading="lazy"
-        src={`./assets/${img}.png`}
+        src={`/assets/${img}.png`}
         alt={name}
       />
     </a>
